@@ -9,7 +9,7 @@ const msg = document.querySelector("#msg");
 const userScorePara = document.querySelector("#userScore");
 const compScorePara = document.querySelector("#compScore");
 
-// create Playgame function to generate two choice from both user as well as comp......
+// create Play game function to generate two choice from both user as well as comp......
 
 const playGame = (userChoice) => {
     const compChoice = genCompChoice();
